@@ -107,7 +107,7 @@ var init = function () {
         document.getElementById('heart').style.display = 'none';
 
         // Hiển thị nội dung khác
-        document.getElementById('loading').style.display = 'none';
+        // document.getElementById('loading').style.display = 'none';
         document.getElementById('wrap').style.display = 'block';
     }, animationDuration);
     var loop = function () {

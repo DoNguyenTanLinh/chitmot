@@ -1,13 +1,13 @@
 
 function loading() {
     $('body').css('height', $(window).height());
-    $('#loading').css('visibility', 'visible');
+    // $('#loading').css('visibility', 'visible');
     setTimeout('loadingVisible()', 0);
     // sound.play();
 }
 
 function loadingVisible() {
-    $('#loading').css('visibility', 'hidden');
+    // $('#loading').css('visibility', 'hidden');
     $('body').css({
         'overflow': 'visible',
         'height': '100%'
