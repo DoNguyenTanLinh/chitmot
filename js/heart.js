@@ -108,7 +108,7 @@ var init = function () {
 
         // Hiển thị nội dung khác
         // document.getElementById('loading').style.display = 'none';
-        document.getElementById('wrap').style.display = 'block';
+        document.getElementById('wrap').style.zIndex = '2';
     }, animationDuration);
     var loop = function () {
         if (!animationRunning) {
